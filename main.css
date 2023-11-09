@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.float-list li {
+    float: left;
+    display: inline;
+}
+
+.float-list img {
+    vertical-align: top;
+}
+
+.clear {
+    clear: both;
+}
+p {
+    float: right;
+}
+.clear img{
+    float: left;
+}

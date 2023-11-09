@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.static, .relative, .absolute-2 {
+    background: blue;
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+}
+.relative{
+    position: relative;
+    left: 50%;
+}
+.absolute-2{
+    /*position: absolute;*/
+    background: purple;
+    top: 0;
+    left: 0;
+}
+
+.relative-in-absolute {
+    background: red;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
